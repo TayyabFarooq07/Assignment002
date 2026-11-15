@@ -1,0 +1,25 @@
+body { background: #f5f8fc; color: #1c2d43; font-family: Arial, Helvetica, sans-serif; }
+a { color: #087d88; }
+a:hover { color: #055b65; }
+.site-header { background: #142b47; }
+.site-header .nav-link { color: #e5eef6; }
+.site-header .nav-link:hover, .site-header .nav-link.active { color: #7de4df; }
+.hero { background: linear-gradient(135deg, #142b47, #087d88); color: white; }
+.hero .lead { color: #e8f4f7; }
+.accent { color: #83eee6; }
+.eyebrow { font-size: .8rem; font-weight: bold; letter-spacing: .16em; text-transform: uppercase; }
+.page-heading { background: linear-gradient(115deg, #d8edf4, #eaf5f3); }
+.feature-card, .project-card, .contact-form { background: white; border: 1px solid #d9e4ed; border-radius: 16px; padding: 1.5rem; box-shadow: 0 8px 22px rgba(15, 42, 65, .06); }
+.feature-card h3 { font-size: 1.3rem; margin-top: .5rem; }
+.icon-heading { color: #087d88; font-size: 1.5rem; }
+.project-number, .tag-list { color: #087d88; font-weight: bold; font-size: .85rem; }
+.project-card h2 { margin-bottom: 1rem; }
+.profile-frame { margin: 0; }
+.profile-frame img { width: 100%; object-fit: cover; }
+.site-footer { background: #142b47; color: #eaf2f8; }
+.site-footer a { color: #8ae8e2; }
+.social-links a { margin-right: 1rem; }
+.btn-primary { background-color: #087d88; border-color: #087d88; }
+.btn-primary:hover { background-color: #055b65; border-color: #055b65; }
+@media (max-width: 600px) { .hero { padding-top: 1rem; } .feature-card, .project-card, .contact-form { padding: 1.15rem; } }
+@media (min-width: 601px) and (max-width: 1024px) { .hero .lead { max-width: 42rem; } }
